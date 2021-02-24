@@ -1,11 +1,11 @@
 import React from "react"
 import styled from "styled-components"
 
-export default function PurchaseButton() {
+export default function PurchaseButton(props) {
   return (
     <Wrapper>
-      <Title>Get Pro Access</Title>
-      <Subtitle>$19 per month</Subtitle>
+      <Title>{props.title || "Get Pro Access"}</Title>
+      <Subtitle>{props.subtitle || "$19 per month"}</Subtitle>
     </Wrapper>
   )
 }
