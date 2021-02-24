@@ -8,6 +8,9 @@ export default function PurchaseButton(props) {
   return (
     <Link to="/page-2">
       <Wrapper>
+        <IconWrapper>
+          <Icon src="/images/icons/credit.svg" />
+        </IconWrapper>
         <Title>{title || "Get Pro Access"}</Title>
         <Subtitle>{subtitle || "$19 per month"}</Subtitle>
       </Wrapper>
@@ -33,4 +36,18 @@ const Title = styled(Caption2)`
 const Subtitle = styled(SmallText)`
   color: black;
   opacity: 0.7;
+`
+const Icon = styled.img`
+  width: 29px;
+  height: 29px;
+`
+const IconWrapper = styled.div`
+  width: 45px;
+  height: 45px;
+  background: linear-gradient(200.44deg, #4316db 13.57%, #9076e7 98.38%);
+  border-radius: 50%;
+  /* Enable CSS grid, align horizontally and vertically */
+  display: grid;
+  justify-content: center;
+  align-content: center;
 `
