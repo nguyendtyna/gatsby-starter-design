@@ -1,5 +1,6 @@
 import React from "react"
 import styled from "styled-components"
+import { themes } from "../styles/ColorStyles"
 import { H1, MediumText } from "../styles/TextStyles"
 
 function HeroSection() {
@@ -37,6 +38,6 @@ const TextWrapper = styled.div`
   gap: 30px;
 `
 const Title = styled(H1)`
-  color: white;
+  color: ${themes.dark.text1};
 `
 const Description = styled(MediumText)``
