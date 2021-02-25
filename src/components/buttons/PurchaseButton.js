@@ -10,6 +10,7 @@ export default function PurchaseButton(props) {
       <Wrapper>
         <IconWrapper>
           <Icon src="/images/icons/credit.svg" />
+          <Ring src="/images/icons/icon-ring.svg" />
         </IconWrapper>
         <TextWrapper>
           <Title>{title || "Get Pro Access"}</Title>
@@ -29,15 +30,8 @@ const Wrapper = styled.div`
     0px 20px 40px rgba(23, 0, 102, 0.2),
     inset 0px 0px 0px 0.5px rgba(255, 255, 255, 0.5);
   border-radius: 20px;
-  /* By default, grid is set to rows
-      - grid-template-columns allows for control of the size of each column
-  */
   display: grid;
   grid-template-columns: 53px auto;
-  /* Align content to the middle vertically:
-      - align-content works best with a single element smaller than the container size,
-      - align-items works best with multiple columns and multiple rows
-  */
   align-items: center;
   gap: 20px;
 `
@@ -59,13 +53,21 @@ const Icon = styled.img`
   width: 29px;
   height: 29px;
 `
+
+const Ring = styled.img`
+  position: absolute;
+  top: -15px;
+  left: -16px;
+`
+
 const IconWrapper = styled.div`
   width: 45px;
   height: 45px;
   background: linear-gradient(200.44deg, #4316db 13.57%, #9076e7 98.38%);
   border-radius: 50%;
-  /* Enable CSS grid, align horizontally and vertically */
   display: grid;
   justify-content: center;
   align-content: center;
+  justify-self: center;
+  position: relative;
 `
