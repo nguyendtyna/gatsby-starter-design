@@ -1,5 +1,6 @@
 import React from "react"
 import styled from "styled-components"
+import MockupAnimation from "../animations/MockupAnimation"
 import PurchaseButton from "../buttons/PurchaseButton"
 import { themes } from "../styles/ColorStyles"
 import { H1, MediumText } from "../styles/TextStyles"
@@ -22,6 +23,7 @@ function HeroSection() {
             subtitle="120+ hours of video"
           />
         </TextWrapper>
+        <MockupAnimation />
       </ContentWrapper>
     </Wrapper>
   )
