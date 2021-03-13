@@ -38,6 +38,8 @@ const ContentWrapper = styled.div`
   max-width: 1234px;
   padding: 200px 30px;
   margin: 0 auto;
+  display: grid;
+  grid-template-columns: 360px auto;
 `
 const TextWrapper = styled.div`
   max-width: 360px;
