@@ -23,12 +23,13 @@ const Wrapper = styled.div`
     left: 0;
     top: 0px;
 
-    background: radial-gradient(
-      218.51% 281.09% at 100% 100%,
-      rgba(253, 63, 51, 0.6) 0%,
-      rgba(76, 0, 200, 0.6) 45.83%,
-      rgba(76, 0, 200, 0.6) 100%
-    );
+    background: url("/images/animations/mockup1.svg"),
+      radial-gradient(
+        218.51% 281.09% at 100% 100%,
+        rgba(253, 63, 51, 0.6) 0%,
+        rgba(76, 0, 200, 0.6) 45.83%,
+        rgba(76, 0, 200, 0.6) 100%
+      );
     border: 0.273134px solid rgba(255, 255, 255, 0.3);
     box-sizing: border-box;
     box-shadow: 0px 16.3881px 32.7761px rgba(99, 30, 187, 0.5);
@@ -45,12 +46,13 @@ const Wrapper = styled.div`
     left: 214px;
     top: 0px;
 
-    background: linear-gradient(
-      198.85deg,
-      #4316db 12.72%,
-      #9076e7 54.49%,
-      #a2eeff 100.01%
-    );
+    background: url("/images/animations/mockup2.svg"),
+      linear-gradient(
+        198.85deg,
+        #4316db 12.72%,
+        #9076e7 54.49%,
+        #a2eeff 100.01%
+      );
     border: 0.27304px solid rgba(255, 255, 255, 0.5);
     box-shadow: 0px 8.19119px 16.3824px rgba(0, 0, 0, 0.1),
       0px 16.3824px 32.7648px rgba(0, 0, 0, 0.15);
@@ -67,7 +69,7 @@ const Wrapper = styled.div`
     left: 37px;
     top: 60px;
 
-    background: rgba(23, 12, 61, 0.5);
+    background: url("/images/animations/mockup3.svg"), rgba(23, 12, 61, 0.5);
     border: 0.342305px solid rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(27.3844px);
     /* Note: backdrop-filter has minimal browser support */
@@ -82,7 +84,7 @@ const Wrapper = styled.div`
     left: 194px;
     top: 262px;
 
-    background: rgba(39, 20, 62, 0.3);
+    background: url("/images/animations/mockup4.svg"), rgba(39, 20, 62, 0.3);
     border: 0.5px solid rgba(255, 255, 255, 0.2);
     box-sizing: border-box;
     backdrop-filter: blur(27.3844px);
@@ -98,7 +100,7 @@ const Wrapper = styled.div`
     left: 616px;
     top: 262px;
 
-    background: rgba(39, 20, 62, 0.2);
+    background: url("/images/animations/mockup5.svg"), rgba(39, 20, 62, 0.2);
     border: 0.5px solid rgba(255, 255, 255, 0.2);
     box-sizing: border-box;
     backdrop-filter: blur(27.3844px);

@@ -33,6 +33,7 @@ export default HeroSection
 
 const Wrapper = styled.div`
   background: linear-gradient(180deg, #4316db 0%, #9076e7 100%);
+  overflow: hidden;
 `
 const ContentWrapper = styled.div`
   max-width: 1234px;
