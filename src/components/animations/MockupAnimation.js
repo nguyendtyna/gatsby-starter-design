@@ -15,6 +15,12 @@ export default function MockupAnimation() {
 
 const Wrapper = styled.div`
   position: relative;
+  perspective: 5000;
+  perspective-origin: top left;
+
+  div {
+    transform: rotateY(-20deg) rotateX(20deg);
+  }
 
   .mockup1 {
     position: absolute;
